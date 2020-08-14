@@ -1,7 +1,7 @@
 
 var mongoose = require('mongoose');
 var app = require('./app');
-var port =normalizePort(process.env.Port)|| 3700;
+var port =process.env.Port|| 3700;
 
 // here made the connection with the data base
 
